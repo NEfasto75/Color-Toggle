@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Luca Frattari" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Color Toggle</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/f0d4b1e2ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <header id="menu">
+      <p class="hamburger"><i id="openMenu" class="fa-solid fa-bars"></i></p>
+      <form>
+        <ul id="popUpMenu" class="popMenu">
+          <li id="home" class="home">
+            <input type="radio" id="radioBeige" name="color" value="beige" />
+            <label for="radioBeige">Home</label>
+          </li>
+          <li id="red" class="red">
+            <input type="radio" id="radioRed" name="color" value="red" />
+            <label for="radioRed">Red</label>
+          </li>
+          <li id="yellow" class="yellow">
+            <input type="radio" id="radioYellow" name="color" value="yellow" />
+            <label for="radioYellow">Yellow</label>
+          </li>
+          <li id="blue" class="blue">
+            <input type="radio" id="radioBlue" name="color" value="blue" />
+            <label for="radioBlue">Blue</label>
+          </li>
+        </ul>
+      </form>
+    </header>
+    <main id="main">
+      <p id="choosedColor">Color</p>
+    </main>
+  </body>
+</html>
