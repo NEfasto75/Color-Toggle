@@ -1,0 +1,62 @@
+body {
+  background-color: lightblue;
+}
+
+.home {
+  background-color: beige;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+#menu i {
+  font-size: 70px;
+}
+
+.popMenu {
+  border: 0px solid black;
+  display: block;
+  width: 0;
+  height: 350px;
+  font-size: 35px;
+  margin: 0px;
+  list-style-type: none;
+  padding: 0;
+  transition: ease 0.5s;
+  overflow: hidden;
+}
+.popMenu li {
+  border: 2px solid darkslategray;
+  border-radius: 10px;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  padding: 5px;
+}
+.popMenu li:hover {
+  color: rgba(211, 211, 211, 0.89);
+  transition: 0.3s;
+}
+
+#main {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+
+#choosedColor {
+  font-size: 80px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
